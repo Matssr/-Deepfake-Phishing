@@ -1,3 +1,101 @@
-main {
-    background-color: #999;
+/* Estilo geral */
+body {
+    background: linear-gradient(to bottom, #000000, #0000ff);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px;
+}
+
+header h1 {
+    color: red;
+    font-size: 3em;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+header h3 {
+    color: red;
+    font-size: 1.8em;
+    margin: 10px 0;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* Imagens de alerta */
+.imagens-alerta {
+    margin: 20px 0;
+}
+
+.imagens-alerta img {
+    width: 70px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.imagens-alerta img:hover {
+    transform: scale(1.1);
+}
+
+/* Seção principal */
+section {
+    margin: 20px auto;
+    width: 80%;
+}
+
+section article p {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+/* Vídeo */
+iframe {
+    margin-top: 20px;
+    max-width: 100%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+/* Seção de como não cair no golpe */
+.section2 h3 {
+    color: red;
+    font-size: 1.8em;
+    margin-top: 30px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.section2 p {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer h2 {
+    color: red;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Deixar texto forte */
+h1, h2, h3 {
+    font-weight: bold;
 }
